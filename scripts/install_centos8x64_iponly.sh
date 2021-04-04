@@ -116,8 +116,9 @@ echo "Internal ip = ${IP4}. Exteranl sub for ip6 = ${IP6}"
 ## read COUNT
 echo "2000 proxy to create !"
 COUNT=2000
-echo "input ip allow connect? Example 27.74.82.97"
+echo "input ip allow connect? Example 27.74.82.97 or Multi ip 27.74.82.97,27.74.82.98,27.74.82.99"
 read IPALLOWCONNECT
+IPALLOWCONNECT=27.74.82.97
 
 FIRST_PORT=10000
 LAST_PORT=$(($FIRST_PORT + $COUNT))
