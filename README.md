@@ -32,8 +32,8 @@ Link register: https://www.vultr.com/?ref=6807319
 
 ## Test your proxy
 
-Firefox Install [FoxyProxy](https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/) in Firefox
-Chrome Install [FoxyProxy](https://chrome.google.com/webstore/detail/foxyproxy-standard/gcknhkkoolaabfmlnjonogaaifnjlfnp) in Chrome
+- Firefox Install [FoxyProxy](https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/) in Firefox
+- Chrome Install [FoxyProxy](https://chrome.google.com/webstore/detail/foxyproxy-standard/gcknhkkoolaabfmlnjonogaaifnjlfnp) in Chrome
 ![Foxy](foxyproxy.png)
 
 
