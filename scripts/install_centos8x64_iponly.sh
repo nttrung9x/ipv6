@@ -41,10 +41,6 @@ install_3proxy() {
 }
 
 gen_3proxy() {
-
-echo "input ip allow connect? Example 27.74.82.97"
-read IPALLOWCONNECT
-
     cat <<EOF
 daemon
 maxconn 2000
@@ -60,7 +56,7 @@ stacksize 6291456
 flush
 
 $(awk -F "/" '{print "auth iponly\n" \
-"allow * " $IPALLOWCONNECT "\n" \
+"allow * " $6 "\n" \
 "deny * * \n" \
 "proxy -6 -n -a -p" $4 " -i" $3 " -e"$5"\n" \
 "flush\n"}' ${WORKDATA})
@@ -86,7 +82,7 @@ upload_proxy() {
 }
 gen_data() {
     seq $FIRST_PORT $LAST_PORT | while read port; do
-        echo "$(random)/$(random)/$IP4/$port/$(gen64 $IP6)"
+        echo "$(random)/$(random)/$IP4/$port/$(gen64 $IP6)/$IPALLOWCONNECT"
     done
 }
 
@@ -118,7 +114,10 @@ echo "Internal ip = ${IP4}. Exteranl sub for ip6 = ${IP6}"
 
 ## echo "How many proxy do you want to create? Example 500"
 ## read COUNT
+echo "2000 proxy to create !"
 COUNT=2000
+echo "input ip allow connect? Example 27.74.82.97"
+read IPALLOWCONNECT
 
 FIRST_PORT=10000
 LAST_PORT=$(($FIRST_PORT + $COUNT))
