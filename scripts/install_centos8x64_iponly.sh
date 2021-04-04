@@ -41,6 +41,10 @@ install_3proxy() {
 }
 
 gen_3proxy() {
+
+echo "input ip allow connect? Example 27.74.82.97"
+read IPALLOWCONNECT
+
     cat <<EOF
 daemon
 maxconn 2000
@@ -115,8 +119,6 @@ echo "Internal ip = ${IP4}. Exteranl sub for ip6 = ${IP6}"
 ## echo "How many proxy do you want to create? Example 500"
 ## read COUNT
 COUNT=2000
-echo "input ip allow connect? Example 27.74.82.97"
-read IPALLOWCONNECT
 
 FIRST_PORT=10000
 LAST_PORT=$(($FIRST_PORT + $COUNT))
