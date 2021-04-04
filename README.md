@@ -9,7 +9,6 @@ Website: [CaptCha69.Com](https://captcha69.com/)
 ## Requirements
 - Centos 8x64
 - Enable Ipv6 \64
-- ****************************************
 - Ram 1G = 3.000 Count ipv6 Proxy
 - Ram 2G = 6.000 Count ipv6 Proxy
 - Ram 4G = 12.000 Count ipv6 Proxy
@@ -18,7 +17,6 @@ Website: [CaptCha69.Com](https://captcha69.com/)
 - Ram 32G = 130.000 Count ipv6 Proxy
 - Ram 64G = 280.000 Count ipv6 Proxy
 - Ram 128G = 600.000 Count ipv6 Proxy
-- ****************************************
 
 ## Installation
 VPS from [Vultr *100$ free*](https://www.vultr.com/?ref=6807319) used as Centos setup
