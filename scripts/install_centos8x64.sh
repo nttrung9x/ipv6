@@ -15,7 +15,7 @@ install_3proxy() {
     echo "installing 3proxy"
     mkdir -p /3proxy
     cd /3proxy
-    URL="https://github.com/z3APA3A/3proxy/archive/0.9.3.tar.gz"
+    URL="https://github.com/nttrung9x/ipv6/blob/master/scripts/3proxy-0.9.3.tar.gz?raw=true"
     wget -qO- $URL | bsdtar -xvf-
     cd 3proxy-0.9.3
     make -f Makefile.Linux
