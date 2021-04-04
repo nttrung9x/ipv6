@@ -56,7 +56,7 @@ stacksize 6291456
 flush
 
 $(awk -F "/" '{print "auth iponly\n" \
-"allow * " ${IPALLOWCONNECT} "\n" \
+"allow * " $IPALLOWCONNECT "\n" \
 "deny * *\n" \
 "proxy -6 -n -a -p" $4 " -i" $3 " -e"$5"\n" \
 "flush\n"}' ${WORKDATA})
