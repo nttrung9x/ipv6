@@ -19,9 +19,9 @@ Website: [CaptCha69.Com](https://captcha69.com/)
 - Ram 128G = 600.000 Count ipv6 Proxy
 
 ## Installation
-VPS from [Vultr *100$ free*](https://www.vultr.com/?ref=6807319) used as Centos setup
+VPS from [Vultr *100$ free*](https://www.vultr.com/?ref=8845068-6G) used as Centos setup
 
-Link register: https://www.vultr.com/?ref=6807319
+Link register: https://www.vultr.com/?ref=8845068-6G
 
 1. `bash <(curl -s "https://raw.githubusercontent.com/nttrung9x/ipv6/master/scripts/install_centos8x64.sh")`
 
