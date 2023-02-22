@@ -1,5 +1,3 @@
-## lindone, vultr, contabo
-## 4core/8G Ram >>> ~19k proxy v6
 ## Solver Recaptcha v1 v2 v3 - Solver Nomar Captcha - Solver H-Captcha ( Cheap Prices )
 Website: [CaptCha69.Com](https://captcha69.com/)
 
@@ -19,6 +17,9 @@ Website: [CaptCha69.Com](https://captcha69.com/)
 - Ram 32G = 130.000 Count ipv6 Proxy
 - Ram 64G = 280.000 Count ipv6 Proxy
 - Ram 128G = 600.000 Count ipv6 Proxy
+
+- lindone, vultr, contabo
+- 4core/8G Ram >>> ~19k proxy v6
 
 ## Installation
 VPS from [Vultr *100$ free*](https://www.vultr.com/?ref=8845068-6G) used as Centos setup
