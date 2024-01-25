@@ -198,7 +198,16 @@ pkill -f "/usr/local/etc/3proxy/bin/3proxy"
 /usr/local/etc/3proxy/bin/3proxy /usr/local/etc/3proxy/3proxy.cfg
 EOF
 
-echo "Tao Cron-Job Auto Run De Xoay Proxy: /home/proxy-installer/change_proxy_v2.sh"
+chmod +x /home/proxy-installer/change_proxy_v2.sh
+
+echo "Tao Cron-Job Auto Run De Xoay Proxy Moi 5 Phut: /home/proxy-installer/change_proxy_v2.sh"
+echo "bash: sudo chmod +x /home/proxy-installer/change_proxy_v2.sh"
+echo "bash: crontab -e"
+echo "Paste: */5 * * * * /home/proxy-installer/change_proxy_v2.sh"
+echo "Enter"
+echo "Esc"
+echo "Nhap ':wq' > Enter ( :wq ko co dau nhay')"
+echo "chay lenh nay de xem coi Cron-Job ok chua: sudo crontab -l"
 
 bash /etc/rc.local
 
