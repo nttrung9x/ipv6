@@ -110,7 +110,6 @@ mkdir $WORKDIR && cd $_
 
 IP4=$(curl -4 -s icanhazip.com)
 #IP6=$(curl -6 -s icanhazip.com | cut -f1-4 -d':')
-#IP6="2a0c:7886:123"
 echo "Nhap IPv6/48 - Vi Du: fa2c:7668:669 :"
 read IP6
 
@@ -120,7 +119,7 @@ echo "Tong So Proxy Muon Tao - Vi Du 2000:"
 read COUNT
 
 
-#IPALLOWCONNECT="216.244.78.250,216.244.79.106,216.244.85.18,14.230.255.95"
+#IPALLOWCONNECT="1.1.1.1,2.2.2.2"
 echo "Nhap List IP allow Connect Authen IP - Vi Du: 1.1.1.1,2.2.2.2 Hoac 1.1.1.1 :"
 read IPALLOWCONNECT
 
